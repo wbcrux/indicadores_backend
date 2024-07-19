@@ -10,17 +10,13 @@ public record IndicadoresGeraisDto(
     Number endYear,
     Number referenceYear,
     String description,
-    OverviewIndicadoresGeraisDto overview
+    OverviewIndicadoresGeraisDto overview,
+    OverviewAreaDto[] areas
 ) {
 
     public IndicadoresGeraisDto() {
-        this(null, null, null, null, null, null, null);
+        this(null, null, null, null, null, null, null,null);
     }
 }
 
-final record OverviewIndicadoresGeraisDto(
-    String areasEstrategicas,
-    String desafios,
-    String indicadores
-) {}
 

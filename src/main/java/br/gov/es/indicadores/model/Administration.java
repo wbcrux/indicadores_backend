@@ -11,11 +11,11 @@ public class Administration extends Entity implements Serializable {
 
     private Boolean status;
 
-    private Number startYear;
+    private Integer startYear;
 
-    private Number endYear;
+    private Integer endYear;
 
-    private Number referenceYear;
+    private Integer referenceYear;
 
     private String description;
 

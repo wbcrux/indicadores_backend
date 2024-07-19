@@ -8,4 +8,4 @@
 '####: ##::. ##: ########::'####:. ######:: ##:::: ##: ########::. #######:: ##:::. ##: ########:. ######::
 ....::..::::..::........:::....:::......:::..:::::..::........::::.......:::..:::::..::........:::......:::
 ${application.name} ${application.version}
-Developed by SEP  powered by Spring Boot ${spring-boot.version}
+Developed by SEP - Secretaria de Economia e Planejamento do Governo do Espírito Santo. Powered by Spring Boot ${spring-boot.version}

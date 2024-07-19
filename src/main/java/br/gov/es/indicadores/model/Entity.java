@@ -1,7 +1,6 @@
 package br.gov.es.indicadores.model;
 
-import org.springframework.data.neo4j.core.schema.GeneratedValue;
-import org.springframework.data.annotation.Id;
+import org.springframework.data.neo4j.core.schema.*;
 
 public abstract class Entity {
 

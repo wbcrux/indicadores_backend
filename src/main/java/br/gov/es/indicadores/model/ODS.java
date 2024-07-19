@@ -9,15 +9,14 @@ public abstract class ODS extends Entity implements Serializable {
 
 	private String nome;
 
-	public String getNome() {
-		return nome;
-	}
-
-	public void setNome(String nome) {
-		this.nome = nome;
-	}
-
 	public ODS(){
-	}
+    }
+    
+    public String getNome() {
+        return nome;
+    }
 
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
 }
